@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizapp/view/home_screen/home_screen.dart';
+import 'package:quizapp/view/category_screen/category_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: CategoryScreen(),
     );
   }
 }
